@@ -4,7 +4,9 @@ Two-way sync between a Slack List request tracker and the ClickUp tasks behind i
 
 ## The problem
 
-Operations requests come in through a Slack form. Each one becomes a ClickUp task and a card in a Slack List tracker. As soon as the work moved in ClickUp, the Slack tracker went stale: requesters couldn't see whether their request had been picked up, who had it, or whether it was done.
+Requests for the operations team used to arrive across several Slack channels and DMs, with no single place to see them all.
+
+A Slack form fixed that: every request now creates a ClickUp task and a card in a Slack List tracker. But it created a new problem. As soon as the work moved in ClickUp, the Slack tracker went stale: requesters couldn't see whether their request had been picked up, who had it, or whether it was done.
 
 Slack Lists and ClickUp have no native sync, and Zapier has no ready-made actions for Slack Lists.
 
